@@ -216,12 +216,26 @@ export default function LandingPage() {
               </blockquote>
               <div className="flex items-center justify-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
-                  S
+                  {/* S */}
+                  <img src="/face.jpg" alt="Sandra" className="w-16 h-16 rounded-full object-cover" />
                 </div>
                 <div>
                   <p className="font-bold text-gray-900">Sandra</p>
                   <p className="text-gray-600">63 anos</p>
                 </div>
+              </div>
+              {/* Novo CTA abaixo do depoimento */}
+              <div className="mt-8 flex justify-center">
+                <a
+                  href="https://pay.hotmart.com/K100661881T?checkoutMode=10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full max-w-xs"
+                >
+                  <Button className="w-full bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-500 hover:to-orange-500 text-black text-lg font-bold px-6 py-4 rounded-2xl shadow-lg transition-all duration-300 transform hover:scale-105">
+                    Quero me sentir Segura e Atualizada
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>
